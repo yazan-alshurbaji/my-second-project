@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 20000px;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+    background-color: #eee;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 234px;
+    
+    /* padding: 0 50px; */
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+}
+nav .logo{
+    font-size: 20px;
+}
+nav .logo span{
+    font-size: 30px;
+}
+ .hero{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero p{
+    font-size: 100px;
+    color: white;
+    /* padding-left:10px ; */
+}
+.hero span{
+    width: 115px;
+    height: 97px;
+    background-color: gray;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+#project{
+    padding-top: 20px;
+}
+#project h1{
+    border-bottom: 2px solid gray;
+    margin: 0px 20px;
+    padding: 20px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 30px;
+}
+#project .container{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#project .container .card{
+    width: 45%;
+    position: relative;
+}
+#project .container .card img{
+    width: 100%;
+}
+#project .container .card p{
+    position: absolute;
+    top: 0  ;
+    left: 0;
+    width: 145px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+#about{
+    margin: 20px;
+}
+#about h1{
+    font-size: 30px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+}
+#about p{
+    color: blue;
+}
+#employees .container{
+    width: 80vw;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+#employees .container .card{
+    position: relative;
+    width: 500px;
+}
+/* #employees .container .card img{
+    width: 600px;
+    
+} */
+#employees h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    border-bottom: 2px solid gray;
+    padding: 15px 0px;
+}
+#employees .container .card h2{
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+#employees .container .card .job{
+    color: gray;
+    padding: 10px 0px;
+    font-size: 25px;
+}
+#employees .container .card .info{
+    max-width: 300px;
+    
+}
+#employees .container a{
+    display: block;
+    background-color: #9f9f9f;
+    height: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 3px 0;
+    border-radius: 7px;
+}
